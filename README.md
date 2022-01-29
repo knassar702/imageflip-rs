@@ -1,10 +1,13 @@
-imageflip.com parser crate :crab:
+imageflip.com parser crate 🦀
 
-```
-use crate::parser::start;
-use std::collections::HashMap;
+```rust
+use imgflipparser::start;
 
-fn main(){
-    let result:Vec<Hashmap<String,String>> = start(Some(20)) // 20 = parse pages from number 0 to 20
+fn main() {
+    for i in start(Some(10)) {
+        for (key, value) in i {
+            println!("{}:{}", key, value);
+        }
+    }
 }
 ```
