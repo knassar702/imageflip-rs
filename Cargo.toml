@@ -1,6 +1,6 @@
 [package]
 name = "imgflipparser"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 description = "A simple image flip meme parser"
 authors = ["Khaled Nassar <knassar702@gmail.com>"]
