@@ -20,7 +20,18 @@ fn main() {
 
 Enable the web API
 ```rust
+Cargo.toml
+---
 imgflipparser = { version = "0.1.1", features = ["webapi"] }
+```
+
+```rust
+use imgflipparser::start_api;
+
+fn main() {
+    start_api();
+}
+
 ```
 
 endpoint: `GET /{ID}` - page id
