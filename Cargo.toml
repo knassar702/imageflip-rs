@@ -14,3 +14,8 @@ keywords = ["memes","parser","imageflip"]
 [dependencies]
 reqwest = { version = "0.11", features = ["blocking"] }
 select = "0.5.0"
+actix-web = { version = "3", optional = true }
+
+
+[features]
+webapi = ["actix-web"]
