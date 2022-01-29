@@ -1,3 +1,4 @@
+#[doc = include_str!("../README.md")]
 #[path = "http.rs"] mod http;
 #[cfg(feature = "webapi")]
 #[path = "api.rs"] mod api;
