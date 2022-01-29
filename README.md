@@ -22,7 +22,7 @@ Enable the web API
 ```rust
 Cargo.toml
 ---
-imgflipparser = { version = "0.1.1", features = ["webapi"] }
+imgflipparser = { version = "0.1.3", features = ["webapi"] }
 ```
 
 ```rust
