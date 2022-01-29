@@ -1,7 +1,13 @@
 [package]
-name = "imgflip-memeparser"
+name = "imgflipparser"
 version = "0.1.0"
 edition = "2021"
+description = "A simple image flip meme parser"
+authors = ["Khaled Nassar <knassar702@gmail.com>"]
+license = "GLPv2"
+repository = "https://github.com/knassar702/imageflip-rs"
+readme = "README.md"
+keywords = ["memes","parser","imageflip"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
